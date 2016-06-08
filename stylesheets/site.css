@@ -27,7 +27,7 @@ hr.light {
 
 /* line 32, site.css.scss */
 a {
-  color: #9c27b0;
+  color: grey;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s; }
@@ -35,79 +35,80 @@ a {
 /* line 39, site.css.scss */
 a:hover,
 a:focus {
-  color: #9c27c1;
-  outline: 0; }
+  color: white;
+  outline: 0;
+  text-decoration: none; }
 
-/* line 45, site.css.scss */
+/* line 46, site.css.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Questrial','Helvetica Neue',Arial,sans-serif; }
 
-/* line 49, site.css.scss */
+/* line 50, site.css.scss */
 p {
   font-size: 17px;
   line-height: 1.7;
   margin-bottom: 20px; }
 
-/* line 55, site.css.scss */
+/* line 56, site.css.scss */
 .wide-space {
   letter-spacing: 1.6px; }
 
-/* line 59, site.css.scss */
+/* line 60, site.css.scss */
 .icon-lg {
   font-size: 50px;
   line-height: 18px; }
 
-/* line 64, site.css.scss */
+/* line 65, site.css.scss */
 .bg-primary {
   background-color: #333; }
 
-/* line 68, site.css.scss */
+/* line 69, site.css.scss */
 .bg-dark {
   color: #eee;
   background-color: #222; }
 
-/* line 73, site.css.scss */
+/* line 74, site.css.scss */
 .cursive {
   font-family: 'Dancing Script', cursive;
   text-transform: none; }
 
-/* line 78, site.css.scss */
+/* line 79, site.css.scss */
 .text-faded {
   color: rgba(245, 245, 245, 0.7); }
 
-/* line 82, site.css.scss */
+/* line 83, site.css.scss */
 .text-dark {
   color: #111; }
 
-/* line 86, site.css.scss */
+/* line 87, site.css.scss */
 .text-primary {
   color: #9c27b0; }
 
-/* line 90, site.css.scss */
+/* line 91, site.css.scss */
 .modal-content {
   background-color: #1d1d1d; }
 
-/* line 94, site.css.scss */
+/* line 95, site.css.scss */
 .landing-logo {
   opacity: 0.4; }
 
-/* line 98, site.css.scss */
+/* line 99, site.css.scss */
 section {
   padding: 70px 0; }
 
-/* line 102, site.css.scss */
+/* line 103, site.css.scss */
 aside {
   padding: 50px 0; }
 
-/* line 106, site.css.scss */
+/* line 107, site.css.scss */
 footer {
   padding: 15px; }
 
-/* line 110, site.css.scss */
+/* line 111, site.css.scss */
 .no-padding {
   padding: 0; }
 
-/* line 114, site.css.scss */
+/* line 115, site.css.scss */
 .navbar-default {
   border-color: rgba(35, 35, 35, 0.05);
   font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
@@ -116,7 +117,7 @@ footer {
   -moz-transition: all .4s;
   transition: all .4s; }
 
-/* line 123, site.css.scss */
+/* line 124, site.css.scss */
 .navbar-header > .navbar-brand {
   font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
   color: #9c27b0;
@@ -125,20 +126,20 @@ footer {
   -moz-transition: padding .2s ease-in;
   transition: padding .2s ease-in; }
 
-/* line 132, site.css.scss */
+/* line 133, site.css.scss */
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
   color: #8b27b0; }
 
-/* line 137, site.css.scss */
+/* line 138, site.css.scss */
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #181818; }
 
-/* line 140, site.css.scss */
+/* line 141, site.css.scss */
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
   border-color: transparent; }
 
-/* line 144, site.css.scss */
+/* line 145, site.css.scss */
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
@@ -146,40 +147,40 @@ footer {
   font-weight: 700;
   color: #eee; }
 
-/* line 152, site.css.scss */
+/* line 153, site.css.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: #9c27b0; }
 
-/* line 157, site.css.scss */
+/* line 158, site.css.scss */
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #9c27b0 !important;
   background-color: transparent; }
 
-/* line 163, site.css.scss */
+/* line 164, site.css.scss */
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent; }
 
 @media (min-width: 768px) {
-  /* line 171, site.css.scss */
+  /* line 172, site.css.scss */
   .navbar-default {
     border-color: transparent;
     background-color: transparent;
     min-height: 60px; }
 
-  /* line 177, site.css.scss */
+  /* line 178, site.css.scss */
   .navbar-header > .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
     padding: 19px; }
 
-  /* line 182, site.css.scss */
+  /* line 183, site.css.scss */
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: #f4f4f4; }
 
-  /* line 187, site.css.scss */
+  /* line 188, site.css.scss */
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.8);
@@ -187,39 +188,39 @@ footer {
     letter-spacing: 1.1px;
     text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7); }
 
-  /* line 195, site.css.scss */
+  /* line 196, site.css.scss */
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: #fefefe; }
 
-  /* line 200, site.css.scss */
+  /* line 201, site.css.scss */
   .navbar-default.affix {
     border-color: rgba(34, 34, 34, 0.05);
     background-color: #222; }
 
-  /* line 205, site.css.scss */
+  /* line 206, site.css.scss */
   .navbar-default.affix .navbar-header .navbar-brand {
     font-size: 15px;
     color: #9c27b0;
     padding: 20px;
     letter-spacing: 1px; }
 
-  /* line 212, site.css.scss */
+  /* line 213, site.css.scss */
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #8b27b0; }
 
-  /* line 217, site.css.scss */
+  /* line 218, site.css.scss */
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
     color: #ddd;
     text-shadow: 1px 1px 1px rgba(30, 30, 30, 0.7); }
 
-  /* line 223, site.css.scss */
+  /* line 224, site.css.scss */
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #9c27b0; } }
-/* line 229, site.css.scss */
+/* line 230, site.css.scss */
 header {
   position: relative;
   min-height: auto;
@@ -227,14 +228,14 @@ header {
   color: #fff;
   width: 100%;
   background-color: #c9c9c9;
-  background-image: url("https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg");
+  background-image: url("http://res.cloudinary.com/waata/image/upload/v1465392659/bas-bg.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
 
-/* line 244, site.css.scss */
+/* line 245, site.css.scss */
 header .header-content {
   position: relative;
   width: 100%;
@@ -242,19 +243,19 @@ header .header-content {
   text-align: center;
   z-index: 2; }
 
-/* line 252, site.css.scss */
+/* line 253, site.css.scss */
 header .header-content .inner h1 {
   margin-top: 0;
   margin-bottom: 0; }
 
-/* line 257, site.css.scss */
+/* line 258, site.css.scss */
 header .header-content .inner p {
   margin-bottom: 50px;
   font-size: 16px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7); }
 
-/* line 264, site.css.scss */
+/* line 265, site.css.scss */
 #video-background {
   position: absolute;
   right: 0;
@@ -265,24 +266,24 @@ header .header-content .inner p {
   height: auto;
   z-index: 1; }
 
-/* line 275, site.css.scss */
+/* line 276, site.css.scss */
 #video-background.collapsing {
   display: none; }
 
-/* line 279, site.css.scss */
+/* line 280, site.css.scss */
 footer {
   background-color: #2d2d2d; }
 
 @media (min-width: 768px) {
-  /* line 284, site.css.scss */
+  /* line 285, site.css.scss */
   .icon-lg {
     font-size: 80px; }
 
-  /* line 288, site.css.scss */
+  /* line 289, site.css.scss */
   header {
     min-height: 100%; }
 
-  /* line 292, site.css.scss */
+  /* line 293, site.css.scss */
   header .header-content {
     position: absolute;
     top: 50%;
@@ -291,28 +292,28 @@ footer {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
 
-  /* line 301, site.css.scss */
+  /* line 302, site.css.scss */
   header .header-content .inner {
     margin-right: auto;
     margin-left: auto;
     max-width: 1000px; }
 
-  /* line 307, site.css.scss */
+  /* line 308, site.css.scss */
   header .header-content .inner h1 {
     font-size: 53px; }
 
-  /* line 311, site.css.scss */
+  /* line 312, site.css.scss */
   header .header-content .inner p {
     margin-right: auto;
     margin-left: auto;
     max-width: 80%;
     font-size: 18px; }
 
-  /* line 318, site.css.scss */
+  /* line 319, site.css.scss */
   section {
     min-height: 600px;
     padding: 100px 0; } }
-/* line 325, site.css.scss */
+/* line 326, site.css.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -328,38 +329,38 @@ footer {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
 
-/* line 341, site.css.scss */
+/* line 342, site.css.scss */
 .form-control:focus {
   color: #222;
   background-color: #ccc;
   box-shadow: none; }
 
-/* line 347, site.css.scss */
+/* line 348, site.css.scss */
 textarea {
   resize: none; }
 
-/* line 351, site.css.scss */
+/* line 352, site.css.scss */
 .margin-top-0 {
   margin-top: 0; }
 
-/* line 355, site.css.scss */
+/* line 356, site.css.scss */
 .feature {
   margin: 50px auto 0;
   max-width: 400px; }
 
 @media (min-width: 992px) {
-  /* line 361, site.css.scss */
+  /* line 362, site.css.scss */
   .feature {
     margin: 20px auto 0; } }
-/* line 366, site.css.scss */
+/* line 367, site.css.scss */
 .feature p {
   margin-bottom: 0; }
 
-/* line 370, site.css.scss */
+/* line 371, site.css.scss */
 .call-to-action h2 {
   margin: 0 auto 20px; }
 
-/* line 374, site.css.scss */
+/* line 375, site.css.scss */
 .gallery-box {
   display: block;
   position: relative;
@@ -367,7 +368,7 @@ textarea {
   max-width: 650px;
   overflow: hidden; }
 
-/* line 382, site.css.scss */
+/* line 383, site.css.scss */
 .gallery-box .gallery-box-caption {
   display: block;
   position: absolute;
@@ -382,7 +383,7 @@ textarea {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-/* line 397, site.css.scss */
+/* line 398, site.css.scss */
 .gallery-box .gallery-box-caption .gallery-box-content {
   position: absolute;
   top: 50%;
@@ -390,27 +391,27 @@ textarea {
   text-align: center;
   transform: translateY(-50%); }
 
-/* line 405, site.css.scss */
+/* line 406, site.css.scss */
 .gallery-box:hover .gallery-box-caption {
   opacity: 1; }
 
-/* line 409, site.css.scss */
+/* line 410, site.css.scss */
 .gallery-box:hover img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1); }
 
-/* line 415, site.css.scss */
+/* line 416, site.css.scss */
 .gallery-box img {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out; }
 
-/* line 420, site.css.scss */
+/* line 421, site.css.scss */
 .no-gutter > [class*=col-] {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 425, site.css.scss */
+/* line 426, site.css.scss */
 .btn-default {
   border-color: #fff;
   color: #222;
@@ -419,7 +420,7 @@ textarea {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-/* line 434, site.css.scss */
+/* line 435, site.css.scss */
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -431,13 +432,13 @@ textarea {
   background-color: #f2f2f2;
   opacity: 0.7; }
 
-/* line 446, site.css.scss */
+/* line 447, site.css.scss */
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none; }
 
-/* line 452, site.css.scss */
+/* line 453, site.css.scss */
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -460,12 +461,12 @@ fieldset[disabled] .btn-default.active {
   background-color: #fff;
   opacity: 0.7; }
 
-/* line 475, site.css.scss */
+/* line 476, site.css.scss */
 .btn-default .badge {
   color: #fff;
   background-color: #222; }
 
-/* line 480, site.css.scss */
+/* line 481, site.css.scss */
 .btn.btn-primary {
   background-color: transparent;
   border: 1px solid #f0f0f0;
@@ -474,39 +475,39 @@ fieldset[disabled] .btn-default.active {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-/* line 489, site.css.scss */
+/* line 490, site.css.scss */
 .btn.btn-primary:hover {
   opacity: 0.7; }
 
-/* line 493, site.css.scss */
+/* line 494, site.css.scss */
 .btn {
   border: 0;
   border-radius: 290px;
   font-family: 'Helvetica Neue',Arial,sans-serif; }
 
-/* line 499, site.css.scss */
+/* line 500, site.css.scss */
 .btn-xl {
   padding: 15px 30px;
   font-size: 20px; }
 
-/* line 504, site.css.scss */
+/* line 505, site.css.scss */
 ::-moz-selection {
   text-shadow: none;
   color: #fff;
   background: #222; }
 
-/* line 510, site.css.scss */
+/* line 511, site.css.scss */
 ::selection {
   text-shadow: none;
   color: #fff;
   background: #222; }
 
-/* line 516, site.css.scss */
+/* line 517, site.css.scss */
 img::selection {
   color: #fff;
   background: 0 0; }
 
-/* line 521, site.css.scss */
+/* line 522, site.css.scss */
 img::-moz-selection {
   color: #fff;
   background: 0 0; }
